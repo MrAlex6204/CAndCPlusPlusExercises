@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1500036024 source:/home/oavera/CloudDrive/CodeProjects/C-Projects/ServerApplication/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ipcom.h"
+
+1500007527 source:/home/alex/CloudDrive/CodeProjects/C-Projects/ServerApplication/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ipcom.h"
+
+1499951871 /home/oavera/CloudDrive/CodeProjects/C-Projects/ServerApplication/main.h
+
+1500060926 source:/home/oavera/CloudDrive/CodeProjects/C-Projects/ServerApplication/ipcom.c
+	"ipcom.h"
+
+1500013546 /home/oavera/CloudDrive/CodeProjects/C-Projects/ServerApplication/ipcom.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<signal.h>
+	<unistd.h>
+
+1500012674 /home/alex/CloudDrive/CodeProjects/C-Projects/ServerApplication/ipcom.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<signal.h>
+	<unistd.h>
+
