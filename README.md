@@ -42,4 +42,15 @@
  
 ![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/GameInC%2B%2B/img/gameover.gif)
 
+* <a href="https://github.com/MrAlex6204/CAndCPlusPlusExercises/tree/master/PokarGame">**C++ Go Fish**</a><br>
+ This is a basic console application Go Fish game you can find a good reference about game development.<br> 
+ <i>the project was created in Visual Studio 2013 and only compile Ms Build compiler</i>
+ <br>
+ <b>Initial screen</b><br>
+ 
+![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/PokarGame/img/img-01.jpg)
 
+<br>
+ <b>Playing Go Fish</b><br>
+ 
+![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/PokarGame/img/screen-02.gif)
