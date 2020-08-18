@@ -54,3 +54,11 @@
  <b>Playing Go Fish</b><br>
  
 ![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/PokarGame/img/screen-02.gif)
+
+
+* <a href="https://github.com/MrAlex6204/CAndCPlusPlusExercises/tree/master/C-Structures">**Structure example**</a><br>
+This project example is for didactic purpose and shows how to create a linked list with structure and also how to save and read structure info from a file
+<br>
+![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/img/screen-01.gif)
+
+
