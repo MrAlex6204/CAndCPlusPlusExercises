@@ -46,20 +46,28 @@
  This is a basic console application Go Fish game you can find a good reference about game development.<br> 
  <i>the project was created in Visual Studio 2013 and only compile Ms Build compiler</i>
  <br>
- <b>Initial screen</b><br>
  
+ <b>Initial screen</b><br> 
 ![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/PokarGame/img/img-01.jpg)
-
 <br>
+
  <b>Playing Go Fish</b><br>
- 
 ![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/PokarGame/img/screen-02.gif)
+<br>
 
+* <a href="https://github.com/MrAlex6204/CAndCPlusPlusExercises/tree/master/PongGame">**Pong Game**</a><br>
+ Pong is a basic game developed in C using SDL library.<br> 
+ <i>This project was created in DevC with MinGW and gcc for windows, but the code can be compiled in Linux with gcc and SDL dev libraries installed</i><br>
+ <i>and compiled with linker flags -lSDL2 -lSDL2_ttf</i>
+ <br>
 
+ <b>Playing Pong Game</b><br>
+![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/PongGame/img/img-01.gif)
+<br>
 * <a href="https://github.com/MrAlex6204/CAndCPlusPlusExercises/tree/master/C-Structures">**Structure example**</a><br>
 This project example is for didactic purpose and shows how to create a linked list with structure and also how to save and read structure info from a file
 <br>
 
-![](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/C-Structures/img/screen-01.gif)
+![alt_tag](https://github.com/MrAlex6204/CAndCPlusPlusExercises/blob/master/C-Structures/img/screen-01.gif)
 
 

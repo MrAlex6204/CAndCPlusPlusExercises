@@ -1,0 +1,33 @@
+# Project: SDL
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+RES      = SDL_private.res
+OBJ      = main.o $(RES)
+LINKOBJ  = main.o $(RES)
+LIBS     = -L"C:/Temp/DEVC/Dev-Cpp/MinGW64/lib" -L"C:/Temp/DEVC/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Temp/DEVC/Dev-Cpp/SDL2/x86_64-w64-mingw32/lib" -static-libgcc -L"C:/Temp/DEVC/Dev-Cpp/SDL2/x86_64-w64-mingw32/lib" -mwindows -lSDL2 -lSDL2_ttf -m64 -g3
+INCS     = -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/include" -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Temp/DEVC/Dev-Cpp/SDL2/x86_64-w64-mingw32/include" -I"C:/Temp/DEVC/Dev-Cpp/SDL2/x86_64-w64-mingw32/include"
+CXXINCS  = -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/include" -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Temp/DEVC/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Temp/DEVC/Dev-Cpp/SDL2/x86_64-w64-mingw32/include" -I"C:/Temp/DEVC/Dev-Cpp/SDL2/x86_64-w64-mingw32/include"
+BIN      = PongGame.exe
+CXXFLAGS = $(CXXINCS) -m64 -g3
+CFLAGS   = $(INCS) -m64 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+SDL_private.res: SDL_private.rc 
+	$(WINDRES) -i SDL_private.rc --input-format=rc -o SDL_private.res -O coff 
+
